@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/mantenimientos")
+@CrossOrigin(origins = "http://localhost:4200")
 public class MaintenanceController {
     @Autowired
     private IMaintenanceService mS;

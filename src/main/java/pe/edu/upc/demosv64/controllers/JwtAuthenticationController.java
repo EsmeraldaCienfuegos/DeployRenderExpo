@@ -18,7 +18,7 @@ import pe.edu.upc.demosv64.servicesimplements.JwtUserDetailsService;
 
 //Clase 3
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 public class JwtAuthenticationController {
     @Autowired
     private AuthenticationManager authenticationManager;

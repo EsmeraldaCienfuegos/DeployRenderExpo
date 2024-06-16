@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/roles")
+@CrossOrigin(origins = "http://localhost:4200")
 public class RoleController {
     @Autowired
     private IRoleService rS;
